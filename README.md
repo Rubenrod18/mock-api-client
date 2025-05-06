@@ -44,6 +44,16 @@ flask run
 
 This will start the Flask application with the appropriate database setup.
 
+
+### 4. How CI/CD and deployment to AWS could be handled?
+
+Use a CI tool like GitHub Actions, GitLab CI, CircleCI, or Jenkins to automate:
+
+- Code Checkout: Pull the latest code from your repository.
+- Dependency Installation: e.g., pip install -r requirements.txt.
+- Linting & Formatting: e.g., flake8, black, isort.
+- Testing: Run unit/integration tests, e.g., pytest.
+
 ---
 
 ## 📄 License
