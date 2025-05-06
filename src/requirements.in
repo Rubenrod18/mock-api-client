@@ -1,0 +1,20 @@
+# Add .env support to your django/flask apps in development and deployments
+python-dotenv
+
+# Database
+faker
+factory-boy
+
+# Framework and extensions
+flask
+flask-marshmallow
+flask-restx
+flask-session
+
+marshmallow-sqlalchemy  # Required by flask-sqlalchemy
+
+# Python dependency injection framework
+dependency-injector
+
+# HTTP requests
+httpx
